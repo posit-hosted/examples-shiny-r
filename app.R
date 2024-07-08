@@ -17,8 +17,8 @@ thematic_shiny()
 # Define the Shiny UI layout
 ui <- page_sidebar(
 
-  # Add github link
-  ribbon_css("https://github.com/rstudio/demo-co/tree/main/evals-analysis-app"),
+  # Add github link (removed for connect cloud)
+ # ribbon_css("https://github.com/rstudio/demo-co/tree/main/evals-analysis-app"),
 
   # Set CSS theme
   theme = bs_theme(bootswatch = "darkly",
