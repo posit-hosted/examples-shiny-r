@@ -1,5 +1,8 @@
-Free Trial by Customer Segment app
-================
+![](https://img.shields.io/badge/Connect_Cloud-Publish-blue.svg?logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMiIgZGF0YS1uYW1lPSJMYXllciAyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzcuNTggMTYzLjUzIj4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiAjZmZmOwogICAgICAgIHN0cm9rZS13aWR0aDogMHB4OwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8ZyBpZD0iTGF5ZXJfMS0yIiBkYXRhLW5hbWU9IkxheWVyIDEtMiI+CiAgICA8ZyBpZD0iZnVsbC1yZ2IiPgogICAgICA8cG9seWdvbiBpZD0iZnVsbExvZ28tOCIgY2xhc3M9ImNscy0xIiBwb2ludHM9IjM1Ljg5IDYyLjYgNDQuMDIgNTkuMDEgODAuNzcgNDIuNzcgODguNzkgMzkuMjMgMTc3LjU4IDAgMTc3LjU4IDQ3LjMyIDE0MS42OCA2Mi42IDEzMy41NiA1OS4wMSAxNzEuMSA0My4wMyAxNzEuMSA5Ljk2IDk2LjgxIDQyLjc3IDg4Ljc5IDQ2LjMyIDUyLjE5IDYyLjQ5IDQ0LjA3IDY2LjA4IDE4LjE3IDc3LjUyIDE4LjE3IDg2LjAxIDQzLjY3IDk3LjI4IDUxLjc5IDEwMC44NyA4OS4zNiAxMTcuNDYgOTcuMzMgMTIwLjk4IDE3MS4xIDE1My41NyAxNzEuMSAxMjAuMTUgMTMzLjk2IDEwNC4zNSAxNDIuMDggMTAwLjc2IDE3Ny41OCAxMTUuODcgMTc3LjU4IDE2My41MyA4OS4zOSAxMjQuNTYgODEuNDIgMTIxLjA0IDQzLjYyIDEwNC4zNSAzNS41IDEwMC43NiAxMS42OCA5MC4yMyAxMS42OCA3My4zIDM1Ljg5IDYyLjYiLz4KICAgICAgPHBvbHlnb24gY2xhc3M9ImNscy0xIiBwb2ludHM9Ijk3LjA2IDgxLjU5IDEzMy41MSA2Ni4wOCAxMjUuMzggNjIuNDkgODAuNSA4MS41OSAxMjUuNzggMTAwLjg3IDEzMy45IDk3LjI4IDk3LjA2IDgxLjU5Ii8+CiAgICAgIDxwb2x5Z29uIGlkPSJmdWxsTG9nby05IiBjbGFzcz0iY2xzLTEiIHBvaW50cz0iNDMuNjcgOTcuMjggNTEuNzkgMTAwLjg3IDg4Ljc5IDg1LjEyIDgwLjUxIDgxLjU5IDQzLjY3IDk3LjI4Ii8+CiAgICAgIDxwb2x5Z29uIGlkPSJmdWxsTG9nby0xMCIgY2xhc3M9ImNscy0xIiBwb2ludHM9IjUyLjE5IDYyLjQ5IDQ0LjA3IDY2LjA4IDgwLjUxIDgxLjU5IDg4Ljc5IDc4LjA3IDUyLjE5IDYyLjQ5Ii8+CiAgICAgIDxwb2x5Z29uIGlkPSJmdWxsTG9nby0xMSIgY2xhc3M9ImNscy0xIiBwb2ludHM9IjE0MS42OCA2Mi42IDEzMy41NiA1OS4wMSA5Ni44MSA0Mi43NyA4OC43OSAzOS4yMyAwIDAgMCA0Ny4zMiAzNS44OSA2Mi42IDQ0LjAyIDU5LjAxIDYuNDggNDMuMDMgNi40OCA5Ljk2IDgwLjc3IDQyLjc3IDg4Ljc5IDQ2LjMyIDEyNS4zOSA2Mi40OSAxMzMuNTEgNjYuMDggMTU5LjQxIDc3LjUyIDE1OS40MSA4Ni4wMSAxMzMuOTEgOTcuMjggMTI1Ljc5IDEwMC44NyA4OC4yMiAxMTcuNDYgODAuMjUgMTIwLjk4IDYuNDggMTUzLjU3IDYuNDggMTIwLjE1IDQzLjYyIDEwNC4zNSAzNS41IDEwMC43NiAwIDExNS44NyAwIDE2My41MyA4OC4xOSAxMjQuNTYgOTYuMTYgMTIxLjA0IDEzMy45NiAxMDQuMzUgMTQyLjA4IDEwMC43NiAxNjUuOSA5MC4yMyAxNjUuOSA3My4zIDE0MS42OCA2Mi42Ii8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4=)](https://connect.posit.cloud/publish?contentType=shiny&sourceRepositoryURL=https%3A%2F%2Fgithub.com%2Fposit-hosted%2Fexamples-shiny-r&sourceRef=main&sourceRefType=branch&primaryFile=app.R)
+
+# Shiny for R Example Application for Posit Connect Cloud Deployment
+
+This example Shiny for R application compares the effectiveness of two types of free trials at converting users into customers.
 
 <figure>
 <img src="images/screenshot.png"
@@ -8,142 +11,18 @@ alt="“Free Trial by Customer Segment app”" />
 app”</figcaption>
 </figure>
 
-The Free Trial by Customer Segment app compares the effectiveness of two
-types of free trials at converting users into customers at a fictitious
-company:
+## Connect Cloud
 
-- Free Trial A lasts 30 days
-- Free Trial B lasts 100 days
+[Connect Cloud](https://connect.posit.cloud/) makes it simple for you to publish and share data applications and documents in a single cloud environment within minutes. It supports the most popular Python and R frameworks, including:
+* [Shiny for Python](https://docs.posit.co/connect-cloud/how-to/python/shiny-python.html) and [Shiny for R](https://docs.posit.co/connect-cloud/how-to/r/shiny-r.html)
+* [Streamlit](https://docs.posit.co/connect-cloud/how-to/python/streamlit.html)
+* [Dash](https://docs.posit.co/connect-cloud/how-to/python/dash.html)
+* [Bokeh](https://docs.posit.co/connect-cloud/how-to/python/bokeh.html)
+* Quarto with Python and [Quarto with R](https://docs.posit.co/connect-cloud/how-to/r/quarto-r.html)
+* Jupyter Notebooks
+* R Markdown
 
-The app allows decisions makers to explore various segments of customer
-data in real time, so they can quickly decide which free trial to adopt
-and under which circumstances. When a decision maker wants to look at
-the data in a new way, they don’t need to wait to meet with their
-Analysts, they simply click a button.
+Create a [free account](https://connect.posit.cloud/), visit the [documentation](https://docs.posit.co/connect-cloud/), and join the [community](https://forum.posit.co/c/posit-professional-hosted/posit-connect-cloud/67). 
 
-- [View the app](https://colorado.posit.co/rsc/Free-Trial-App/) on Posit
-  Connect
-- [Play with the code](https://posit.cloud/content/6716482) on Posit
-  Cloud
 
-## To use the app
 
-To use the app:
-
-1.  **Visit the app
-    [here](https://colorado.posit.co/rsc/Free-Trial-App/).** The app is
-    hosted on [Posit
-    Connect](https://posit.co/products/enterprise/connect/), a hosting
-    platform for data driven content. You can use Posit Connect to
-    publish models, reports, etc. securely within your enterprise; or to
-    deploy data products to your customers and manage access.
-
-2.  **Select a combination of industries to view**. Type in one or more
-    industry names, or select industries from the drop down menu. The
-    app will adjust to focus only on results for customers from these
-    industries. Leave this field blank to focus on all industries.
-
-    <figure>
-    <img src="images/select_industry.png" alt="“Select industries”" />
-    <figcaption aria-hidden="true">“Select industries”</figcaption>
-    </figure>
-
-3.  **Select a propensity to buy**. DemoCo, the fictitious company who
-    sponsored the app, divides potential customers into three
-    categories:
-
-    1.  Good - likely to buy
-    2.  Average - neither likely nor unlikely to buy
-    3.  Poor - unlikely to buy
-
-    The app will adjust to focus on results for the selected category or
-    categories of potential customers. Leave this field blank to focus
-    on all customers.
-
-    <figure>
-    <img src="images/select_propensity.png"
-    alt="“Select a propensity to buy”" />
-    <figcaption aria-hidden="true">“Select a propensity to buy”</figcaption>
-    </figure>
-
-4.  **Select a contract type.** The app will adjust to focus on results
-    for customers who sign an annual contract, or a monthly contract.
-    Leave this field blank to include both types of contracts.
-
-    <figure>
-    <img src="images/select_contract.png" alt="“Select a contract type”" />
-    <figcaption aria-hidden="true">“Select a contract type”</figcaption>
-    </figure>
-
-# To build a similar app
-
-The Free Trial by Customer Segment app is written in R with the
-[Shiny](https://shiny.posit.co/) package. Shiny makes it easy to create
-an interactive web app with only R code: you do not need to know HTML,
-CSS, JavaScript, or any web development skills. (Click here to learn
-about [Shiny for Python](https://shiny.posit.co/py/)).
-
-[This tutorial](https://shiny.posit.co/getstarted.html) explains how to
-write a basic web app with Shiny. Like all Shiny apps, the Free Trial by
-Customer Segment app is composed of:
-
-1.  A user interface that collects input values and displays outputs:
-
-    ``` r
-    # Define the Shiny UI layout
-    ui <- page_sidebar(
-      # Everything that appears in the UI
-    )
-    ```
-
-2.  A server function that tells R how to build outputs from input
-    values:
-
-    ``` r
-    # Define the Shiny server function
-    server <- function(input, output) {
-      # A list of definitions for outputs and intermediate objects, 
-      # as well as code to run to create those objects
-    }
-    ```
-
-3.  And a call to `shinyApp()`, which brings the user interface and
-    server function together.
-
-    ``` r
-    # Create the Shiny app
-    shinyApp(ui = ui, server = server)
-    ```
-
-### Notable features
-
-There are a couple unique things about the Traveling Salesperson Planner
-app:
-
-1.  It [uses a theme from the bslib
-    package](https://rstudio.github.io/bslib/articles/theming/index.html)
-    to make the app look more visually appealing.
-
-    ``` r
-    # Set CSS theme
-    theme = bs_theme(bootswatch = "darkly", 
-                     bg = "#222222", 
-                     fg = "#86C7ED", 
-                     success ="#86C7ED"),
-    ```
-
-2.  It uses the [thematic](https://rstudio.github.io/thematic/) package
-    to ensure that the plots that appear within the app use the same
-    bslib theme. These works because the plots are made with
-    [ggplot2](https://ggplot2.tidyverse.org/), a package that implements
-    the [grammar of
-    graphics](https://towardsdatascience.com/a-comprehensive-guide-to-the-grammar-of-graphics-for-effective-visualization-of-multi-dimensional-1f92b4ed4149)
-    within R.
-
-    ``` r
-    # Set the default theme for ggplot2 plots
-    ggplot2::theme_set(ggplot2::theme_minimal())
-
-    # Apply the CSS used by the Shiny app to the ggplot2 plots
-    thematic_shiny()
-    ```
