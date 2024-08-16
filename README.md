@@ -7,8 +7,6 @@ This example Shiny for R application compares the effectiveness of two types of 
 <figure>
 <img src="images/screenshot.png"
 alt="“Free Trial by Customer Segment app”" />
-<figcaption aria-hidden="true">“Free Trial by Customer Segment
-app”</figcaption>
 </figure>
 
 ## Connect Cloud
