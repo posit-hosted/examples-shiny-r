@@ -12,8 +12,9 @@ server <- function(input, output, session) {
 
   observeEvent(input$capture, {
     b <- ChromoteSession$new()
+    p <- b$Page$loadEventFired(wait_ = FALSE)
     b$Page$navigate("https://example.com")
-    b$Page$loadEventFired()
+    b$wait_for(p)
     tmp <- tempfile(fileext = ".png")
     b$screenshot(tmp, selector = "body")
     b$close()
@@ -26,14 +27,5 @@ server <- function(input, output, session) {
   }, deleteFile = FALSE)
 }
 
-chromote::set_chrome_args(c(
-  "--no-sandbox",
-  "--disable-dev-shm-usage",
-  "--disable-gpu",
-  c("--force-color-profile", "srgb"),
-  "--disable-extensions",
-  "--mute-audio"
-))
-options(chromote.headless = "old")
 
 shinyApp(ui = ui, server = server)
