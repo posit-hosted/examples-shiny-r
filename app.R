@@ -26,4 +26,14 @@ server <- function(input, output, session) {
   }, deleteFile = FALSE)
 }
 
+chromote::set_chrome_args(c(
+  "--no-sandbox",
+  "--disable-dev-shm-usage",
+  "--disable-gpu",
+  c("--force-color-profile", "srgb"),
+  "--disable-extensions",
+  "--mute-audio"
+))
+options(chromote.headless = "old")
+
 shinyApp(ui = ui, server = server)
