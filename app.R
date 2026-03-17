@@ -13,6 +13,23 @@ ggplot2::theme_set(ggplot2::theme_minimal())
 # Apply the CSS used by the Shiny app to the ggplot2 plots
 thematic_shiny()
 
+print(".dockerenv exists: ")
+print(file.exists("/.dockerenv"))
+print()
+
+print("cgroup file exists: ")
+print(file.exists("/proc/self/cgroup"))
+print()
+
+print("cgroup file contains 'docker': ")
+print(any(grepl("docker", readLines("/proc/self/cgroup"), fixed = TRUE)))
+print()
+
+print("is linux: ")
+print(Sys.info()[['sysname']] == 'Linux')
+print()
+
+
 
 # Define the Shiny UI layout
 ui <- page_sidebar(
