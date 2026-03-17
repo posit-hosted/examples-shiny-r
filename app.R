@@ -25,6 +25,9 @@ print(Sys.info()[['sysname']] == 'Linux')
 print("mountinfo contents: ")
 print(readLines("/proc/self/mountinfo"))
 
+print("mountinfo file contains 'overlay': ")
+print(any(grepl("overlay", readLines("/proc/self/mountinfo"), fixed = TRUE)))
+
 server <- function(input, output, session) {
   screenshot_path <- reactiveVal(NULL)
 
