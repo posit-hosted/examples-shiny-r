@@ -7,6 +7,22 @@ ui <- fluidPage(
   imageOutput("screenshot")
 )
 
+print(".dockerenv exists: ")
+print(file.exists("/.dockerenv"))
+
+print("cgroup file exists: ")
+print(file.exists("/proc/self/cgroup"))
+
+print("cgroup file contains 'docker': ")
+print(any(grepl("docker", readLines("/proc/self/cgroup"), fixed = TRUE)))
+
+print("cgroup file contents: ")
+print(readLines("/proc/self/cgroup"))
+
+print("is linux: ")
+print(Sys.info()[['sysname']] == 'Linux')
+
+
 server <- function(input, output, session) {
   screenshot_path <- reactiveVal(NULL)
 
