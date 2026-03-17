@@ -22,6 +22,8 @@ print(readLines("/proc/self/cgroup"))
 print("is linux: ")
 print(Sys.info()[['sysname']] == 'Linux')
 
+print("mountinfo contents: ")
+print(readLines("/proc/self/mountinfo"))
 
 server <- function(input, output, session) {
   screenshot_path <- reactiveVal(NULL)
